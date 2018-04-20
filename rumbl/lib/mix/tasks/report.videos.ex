@@ -5,7 +5,7 @@ defmodule Mix.Tasks.Report.Videos do
   alias Rumbl.Repo
   alias Rumbl.Video
 
-  @shortdoc "Counts number of videos by category"
+  @shortdoc "Repoet number of vidoes in each category"
 
   def run(_) do
     Mix.Task.run "app.start"
