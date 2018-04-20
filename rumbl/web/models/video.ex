@@ -11,8 +11,7 @@ defmodule Rumbl.Video do
     timestamps()
   end
 
-
-
+  
   def changeset(model, params \\ :invalid) do
     model
     |> cast(params, [:url, :title, :description, :category_id])
